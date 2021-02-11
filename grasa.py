@@ -31,4 +31,4 @@ async def on_message(msg):
             await msg.channel.send(f"amenaza eliminada")
     await bot.process_commands(msg)
 
-bot.run(token=")
+bot.run(token="")

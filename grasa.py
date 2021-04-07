@@ -31,7 +31,7 @@ class CLientGraso(discord.Client):
     for word in grasa:
         if msg.content.count(word) > 0:
             await msg.channel.purge(limit=1)
-            await msg.channel.send(f"amenaza eliminada")
+            await msg.channel.send("amenaza eliminada")
             
 bot = CLientGraso()
 bot.run(token="")
